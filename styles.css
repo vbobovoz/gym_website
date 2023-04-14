@@ -136,7 +136,8 @@ body {
 
 h1{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 90px;margin-bottom: 30px;
+    font-size: 90px;
+    margin-bottom: 30px;
     color: #1a202a;
 }
 
@@ -156,4 +157,62 @@ h1{
     width: 35%;
     margin-left: auto;
     margin-right: 44px;
+}
+
+.signup{
+    background-image: url("images/features-2-bg@1x.jpg");
+    background-size: 100%;
+}
+
+
+.signup__input{
+    padding: 115px 65px 115px;
+    background-color: rgba(211,211,211,.9);
+    height: 100%;
+    width: 50%;
+    font-size: 20px;
+    color: #1a202ab3;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    margin-bottom: 33px;
+    padding-left: 24px;
+    color: #1a202a;
+    border-left: 10px solid #d74a4a;
+}
+
+.signup__details{
+    display: flex;
+    font-size: 18px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 30px;
+    padding: 26px 32px 26px;
+    border: none;
+}
+
+.main__btn:hover{
+    background-color: #db2f2fff;
+}
+
+.footer{
+    width: 100%;
+    padding: 85px 52px 50px;
+    color: #1a202ab3;
+    font-size: 16px;
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title{
+
 }
