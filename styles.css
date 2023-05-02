@@ -185,90 +185,6 @@ h2{
     border-left: 10px solid #d74a4a;
 }
 
-.services{
-    color: white;
-    background-image: url(images/services-bg@2x.jpg);
-    background-blend-mode: darken;
-    background-color: rgba(25,32,42,.90196);
-    background-image: url(images/services-bg@1x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.services__blur-wrapper{
-    -webkit-backdrop-filter: blur(7px);
-    backdrop-filter: blur(7px);
-}
-
-.services__wrapper{
-    padding: 70px 20px;
-}
-
-.services__title{
-    margin: 0px 0px 30px;
-    color: var(--color-white);
-}
-
-.title--h2{
-    font-size: 48px;
-    line-height: 1.1;
-}
-
-.title{
-    position: relative;
-    font-weight: 700;
-}
-
-.services__content-wrapper{
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    column-gap: 20px;
-}
-
-.services__select{
-    margin-bottom: 43px;
-}
-
-.custom-select{
-    position: relative;
-}
-
-.custom-select__bar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 19px 20px 17px;
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 1.75;
-    font-weight: 800;
-    transition: background-color .5s ease;
-}
-
-.custom-select__options{
-    position: absolute;
-    left: 0;
-    top: 70px;
-    z-index: 5;
-    display: none;
-    width: 100%;
-    margin: 0;
-    padding: 20px;
-    list-style: none;
-}
-
-.custom-select__options{
-    position: relative;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
 .signup__details{
     display: flex;
     font-size: 18px;
@@ -318,4 +234,45 @@ input{
 .ss__icon{
     width: 32px;
     margin-right: 16px;
+}
+
+/*NEW CSS*/
+.auth-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.login-form, .register-form {
+    flex: 1 1 48%;
+}
+
+.login-form h2, .register-form h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.login-form label, .register-form label {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.login-form input[type="email"], .login-form input[type="password"], .login-form input[type="text"],
+.register-form input[type="email"], .register-form input[type="password"], .register-form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.login-form input[type="submit"], .register-form input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    width: 30%;
+    background-color: #db2f2f;
+    color: white;
 }
