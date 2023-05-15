@@ -3,7 +3,7 @@
     font-weight: 700;
     font-style: normal;
     font-display: swap;
-    src: url("/fonts/BebasNeue-700.woff2") format("woff2")
+    src: url("fonts/BebasNeue-700.woff2") format("woff2")
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-    src: url("/fonts/montserrat-500.woff2") format("woff2")
+    src: url("fonts/montserrat-500.woff2") format("woff2")
 }
 
 @font-face {
@@ -19,7 +19,7 @@
     font-weight: 800;
     font-style: normal;
     font-display: swap;
-    src: url("/fonts/montserrat-800.woff2") format("woff2")
+    src: url("fonts/montserrat-800.woff2") format("woff2")
 }
 
 *{
